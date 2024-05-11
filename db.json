@@ -1,0 +1,244 @@
+{
+  "AI_tools": [
+    {
+      "id": 1,
+      "name": "Claude",
+      "description": "The next generation of OpenAI's GPT series, boasting improved performance and capabilities.",
+      "provider": "OpenAI",
+      "LLM_comparison": {
+        "performance": "High",
+        "capabilities": "Extensive",
+        "training_data": "Large and diverse",
+        "fine_tuning_ability": "Advanced"
+      },
+      "popularity_index": 95,
+      "popularity_reason": "Widely recognized for its advancements and maintained reputation in the field.",
+      "image": "https://assets-global.website-files.com/64f605bdfa749671fed117a9/6519c104ae0a20803aa60872_Claude%20AI.png",
+      "link": "https://openai.com/gpt-4"
+    },
+    {
+      "id": 2,
+      "name": "BERT",
+      "description": "Bidirectional Encoder Representations from Transformers, developed by Google.",
+      "provider": "Google",
+      "LLM_comparison": {
+        "performance": "High",
+        "capabilities": "Wide range of tasks",
+        "training_data": "Large corpus",
+        "fine_tuning_ability": "Good"
+      },
+      "popularity_index": 90,
+      "popularity_reason": "Pioneering model with extensive documentation and community support.",
+      "image": "https://karmajack.com/wp-content/uploads/2019/12/Google-BERT-What-you-probably-didnt-know-about-the-AI.png",
+      "link": "https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html"
+    },
+    {
+      "id": 3,
+      "name": "XLNet",
+      "description": "XLNet is a generalized autoregressive pretraining method developed by Google.",
+      "provider": "Google",
+      "LLM_comparison": {
+        "performance": "High",
+        "capabilities": "Varied tasks",
+        "training_data": "Large and diverse",
+        "fine_tuning_ability": "Advanced"
+      },
+      "popularity_index": 85,
+      "popularity_reason": "Known for its improved performance and robustness compared to previous models.",
+      "image": "https://www.borealisai.com/wp-content/uploads/2019/07/blog_xlnet.png?resize=1536,864",
+      "link": "https://ai.googleblog.com/2019/06/xlnet-generalized-autoregressive.html"
+    },
+    {
+      "id": 4,
+      "name": "T5",
+      "description": "Text-To-Text Transfer Transformer is a transformer model by Google.",
+      "provider": "Google",
+      "LLM_comparison": {
+        "performance": "High",
+        "capabilities": "Wide range of tasks",
+        "training_data": "Large corpus",
+        "fine_tuning_ability": "Good"
+      },
+      "popularity_index": 88,
+      "popularity_reason": "Versatile model capable of handling diverse NLP tasks.",
+      "image": "https://media.licdn.com/dms/image/D5612AQHUpX3k4ulg3A/article-cover_image-shrink_720_1280/0/1704343052009?e=1720656000&v=beta&t=C7_S3jX1vC5DN_UMiEjVP8Zz-zXpyYZZRE-sDdESuVU",
+      "link": "https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html"
+    },
+    {
+      "id": 5,
+      "name": "RoBERTa",
+      "description": "A robustly optimized BERT approach by Facebook AI.",
+      "provider": "Facebook",
+      "LLM_comparison": {
+        "performance": "High",
+        "capabilities": "Various NLP tasks",
+        "training_data": "Large corpus",
+        "fine_tuning_ability": "Good"
+      },
+      "popularity_index": 92,
+      "popularity_reason": "Improvement over BERT model with better pretraining strategies.",
+      "image": "https://www.cronj.com/blog/wp-content/uploads/RoBERTa-2048x640.png",
+      "link": "https://ai.facebook.com/blog/roberta-an-optimized-method-for-pretraining-self-supervised-nlp-systems/"
+    },
+    {
+      "id": 6,
+      "name": "ALBERT",
+      "description": "A Lite BERT for Self-supervised Learning of Language Representations by Google.",
+      "provider": "Google",
+      "LLM_comparison": {
+        "performance": "High",
+        "capabilities": "Varied tasks",
+        "training_data": "Large corpus",
+        "fine_tuning_ability": "Good"
+      },
+      "popularity_index": 87,
+      "popularity_reason": "Known for its efficiency and reduced model size while maintaining performance.",
+      "image": "https://editor.analyticsvidhya.com/uploads/27299dd.PNG",
+      "link": "https://ai.googleblog.com/2019/12/albert-lite-bert-for-self-supervised.html"
+    },
+    {
+      "id": 7,
+      "name": "ELECTRA",
+      "description": "Efficiently Learning an Encoder that Classifies Token Replacements Accurately by Google.",
+      "provider": "Google",
+      "LLM_comparison": {
+        "performance": "High",
+        "capabilities": "Various NLP tasks",
+        "training_data": "Large and diverse",
+        "fine_tuning_ability": "Good"
+      },
+      "popularity_index": 84,
+      "popularity_reason": "Utilizes a more efficient pretraining approach compared to traditional masked language models.",
+      "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*eWaR0HeJSwGbIvygkFZUGg.png",
+      "link": "https://ai.googleblog.com/2020/03/more-efficient-nlp-model-pre-training.html"
+    },
+    {
+      "id": 8,
+      "name": "BART",
+      "description": "Bidirectional and Auto-Regressive Transformers for Paraphrase Generation, Summarization, and more by Facebook AI.",
+      "provider": "Facebook",
+      "LLM_comparison": {
+        "performance": "High",
+        "capabilities": "Summarization, translation, etc.",
+        "training_data": "Large corpus",
+        "fine_tuning_ability": "Good"
+      },
+      "popularity_index": 86,
+      "popularity_reason": "Versatile model capable of various NLP tasks with a single architecture.",
+      "image": "https://cdn.dribbble.com/userupload/7249963/file/original-1f4a3ba5b84d64d8dbef7066cac0b7dc.jpg?resize=1200x900",
+      "link": "https://arxiv.org/abs/1910.13461"
+    },
+    {
+      "id": 9,
+      "name": "ERNIE",
+      "description": "Enhanced Representation through kNowledge Integration by Baidu.",
+      "provider": "Baidu",
+      "LLM_comparison": {
+        "performance": "High",
+        "capabilities": "Various NLP tasks",
+        "training_data": "Large corpus",
+        "fine_tuning_ability": "Good"
+      },
+      "popularity_index": 82,
+      "popularity_reason": "Known for incorporating external knowledge sources for improved understanding.",
+      "image": "https://forkast.news/wp-content/uploads/2023/02/featured-image-9-768x512.jpg",
+      "link": "https://arxiv.org/abs/1904.09223"
+    },
+    {
+      "id": 10,
+      "name": "DistilBERT",
+      "description": "A distilled version of BERT by Hugging Face.",
+      "provider": "Hugging Face",
+      "LLM_comparison": {
+        "performance": "Moderate to High",
+        "capabilities": "Various NLP tasks",
+        "training_data": "Derived from BERT",
+        "fine_tuning_ability": "Good"
+      },
+      "popularity_index": 83,
+      "popularity_reason": "Provides faster inference and lower memory footprint compared to the original BERT.",
+      "image": "https://kikaben.com/distilbert-distilled-version-of-bert/images/thumbnail.png",
+      "link": "https://huggingface.co/distilbert-base-uncased"
+    },
+    {
+      "id": 11,
+      "name": "GPT-3",
+      "description": "The third iteration of OpenAI's Generative Pre-trained Transformer, known for its large scale and versatility.",
+      "provider": "OpenAI",
+      "LLM_comparison": {
+        "performance": "High",
+        "capabilities": "Wide range of tasks",
+        "training_data": "Huge and diverse",
+        "fine_tuning_ability": "Advanced"
+      },
+      "popularity_index": 94,
+      "popularity_reason": "Highly praised for its generative capabilities and broad applicability.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/800px-ChatGPT_logo.svg.png",
+      "link": "https://openai.com/gpt-3"
+    },
+    {
+      "id": 12,
+      "name": "XLM-RoBERTa",
+      "description": "A multilingual model trained on RoBERTa architecture by Facebook AI.",
+      "provider": "Facebook",
+      "LLM_comparison": {
+        "performance": "High",
+        "capabilities": "Multilingual tasks",
+        "training_data": "Large corpus",
+        "fine_tuning_ability": "Good"
+      },
+      "popularity_index": 88,
+      "popularity_reason": "Addresses the need for multilingual understanding and generation in NLP.",
+      "image": "https://media.licdn.com/dms/image/D4D12AQFLS_3_RtfWHA/article-cover_image-shrink_720_1280/0/1686420877038?e=1720656000&v=beta&t=kQxPgJUQ-rOB3BFXb3yMhcP0MiqDNWfRlFloIbz2OQ4",
+      "link": "https://huggingface.co/xlm-roberta-base"
+    },
+    {
+      "id": 13,
+      "name": "DeBERTa",
+      "description": "Decoding-enhanced BERT with disentangled attention by Microsoft.",
+      "provider": "Microsoft",
+      "LLM_comparison": {
+        "performance": "High",
+        "capabilities": "Various NLP tasks",
+        "training_data": "Large corpus",
+        "fine_tuning_ability": "Good"
+      },
+      "popularity_index": 85,
+      "popularity_reason": "Integrates decoding enhancements and disentangled attention mechanism.",
+      "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FqMcRY%2FbtsiFMEdjJE%2FTqBLIoUwSDfSmXoer2gw70%2Fimg.png",
+      "link": "https://arxiv.org/abs/2006.03654"
+    },
+    {
+      "id": 14,
+      "name": "UniLM",
+      "description": "A unified pre-trained model for language understanding and generation by Microsoft.",
+      "provider": "Microsoft",
+      "LLM_comparison": {
+        "performance": "High",
+        "capabilities": "Understanding and generation",
+        "training_data": "Large corpus",
+        "fine_tuning_ability": "Good"
+      },
+      "popularity_index": 89,
+      "popularity_reason": "Designed to handle both language understanding and generation tasks.",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATIAAAClCAMAAADoDIG4AAABTVBMVEX///8AAADvkmDul1LvlVnvk13vkWTwjmvwinbumkvwi3LtnkDtnUTwj2fxh33tnz3wiXnxhoDtoTnxhYTxg4dnZ2fsozLygovq6urum0eKiorwjW/X19fumU+jo6NISEijp6+3usDIyMizs7P/1B329vfspivygJLl5uivsrnNzc14eHj/1xubn6jAw8j/vxf89OfyfZXxcJGampo3Nzf/uAD/sAD/woT/qhD/69n55s321Kj0y5nwvm3roAPsnyLsmC7ytn/tkDnztYj88OrrpQDzzI32va33yMHus1HymZDwfHbsmiHxdobziZr3tcL1oLTuikv73eT518f60Nv75t70pKPzlpkbGxtSUlIkJCRfX1//s1f/tWEAHUiZgjZxYz2ulTPtxCOLkJv/x5GFdDoAEkn/oACLZzzOEkKedjn/373/ySb/xi//vXNln8MqAAAEYklEQVR4nO3d/VfTVhgH8JuJg224F7doZDEkbW5JQpMUWtJAa5nObWzKHNtQCt2LFHWO6v//456bZthCysvRc24i38+Blrz1PPme596EX1LGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAug7VWu91ak11Fcaze6XTW178hd1dl11IMdzqVGzeuX//sk9lbt+59K7uaAqhVOpVKmthHt69cmbovu6K8q31XGU1saurqVWR2usrxxD748JrsmvLt+87JxK79ILuqXMtIbPrrj2VXlWetTlZiMxuy68qxHzMT+/wn2XXlWCczsU8fyK4rv2rrmYl98QD3GZNQZFmJffkVIpuk9jA7sU1ENtHDzMRubsquK8dmMxNb+Fl2XTnWns1I7ObCI9l15VjtXlZiy5jKTnH39olRubD0i+yqcu3+1okeW1rmsqvKt+2tE4n9KrumvPtta3xULv8uu6L8256eHklsCT12HhszM8M72M0l3F6c1/bG4ydPHj9ChwEAAABIpyuKzni9XpJdSHHUFaXONEWZk11IcXBV5Yjs4hDZBCVV1RlT1ToNR7WsqTtdWnRUNUgjm1NLTndnT2Nzu/OY2hJlRaEkFEWl3JSGIiTTv5FGNj9c2UheHdnV5sJYZEq31BXLY5EpeyXKa6e8KK4JcDwyGqiKUj4WGWOGonhieVF2tblwrsjKIjKOyIYQ2YUlkWmI7AI8uhoauxMia+iILMOuuIXoKnuM7Y1HxhqizRpH0z8i+x+fo9tY3aAJrVSmnBzDcJhmGHRDqy2qBiuLlbphaBRcGfeyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADv3Fqz12vi61suoLdik5UenkN5XrGdimVXUhR/2Ha1Ovztya6lGFYj2/7zr2r17/mqHaVfrGSd3M1xR5d0Vz/9U/XR7YFDBwRvWWeOtAdh9HTftvefhtHgYLjOf7NZE6fqafTH0aqAM/OsTx3bgXP6dSfsWUDNZBqrVgfirTlc17d80Ro+89w+5eOaTDet4WrumwFz+67OTVNnjmk6zHXTODzX59wX/cQtpll0vGX5OrP6WhIZ930ro3+L52BgV/efP3v2fL96FBkFplFkJutTcppLb0mXUATc00UH0Q/zAj9pR8f3+k56GI1pTbxRIyaRuUlDBmlkQXB2exZB60Uch/+8fPlvGMcv2sN1aWSiyzzKx9KSvqHztTgX7ZbkoLMkMu5YTDzAmIvDeBqZmWR0PDLqMVPWab5Dq1E8WInsMLTjcBBHh8lKk86S+4HLXMui5OhUdbcvWiTgjmkFNNRcR/MDk2tiYFo0cBntTKPXFMPYY44nPsQSXclcZvmm7rh9S3TZ+zCjHVJiFJddjQdhOIha41v7TPM9j1lvrn8mZXnmU7Hfixlrolb4iiZ+ii2k11fhwfhWLaB+0YPR59J4gcYut7VIXCrDKBL/NA3SgQmnqjXjKHp9eNiMovg1viMUAAAAAAAAAAAALrf/ACRfp4WW51EnAAAAAElFTkSuQmCC",
+      "link": "https://github.com/microsoft/unilm"
+    },
+    {
+      "id": 15,
+      "name": "CTRL",
+      "description": "Conditional Transformer Language Model for generative tasks by Salesforce Research.",
+      "provider": "Salesforce Research",
+      "LLM_comparison": {
+        "performance": "High",
+        "capabilities": "Generative tasks",
+        "training_data": "Large and diverse",
+        "fine_tuning_ability": "Good"
+      },
+      "popularity_index": 80,
+      "popularity_reason": "Used widely in creative applications such as text generation and storytelling.",
+      "image": "https://framerusercontent.com/images/T0GTu816MlHbrjMbMHWTgC398s.png",
+      "link": "https://github.com/salesforce/ctrl"
+    }
+  ]
+}
