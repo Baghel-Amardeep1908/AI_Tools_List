@@ -7,7 +7,7 @@ import AIToolsComparisonTable from "../Components/AI Tools Comparison/AIToolsCom
 
 const Routing = () => {
   return (
-    <BrowserRouter basename="/AI-Tools-List/">
+    <BrowserRouter basename="/AI_Tools_List/">
       <Routes>
         <Route path="/" Component={AIToolsHome} />
         <Route path="/home" Component={AIToolsList} />

@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/AI-Tools-List/",
+  base: "/AI_Tools_List/",
   plugins: [react()],
 });
